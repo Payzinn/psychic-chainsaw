@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope&display=swap');
+body{
+    color: #fff;
+    background: -webkit-linear-gradient(180deg, #23379a,#09133c);
+    background: linear-gradient(180deg, #23379a,#09133c);    
+    font-family: 'Manrope', sans-serif;   
+}
+
+.navbar-nav {
+    flex-direction: row;
+}
+.nav-item {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.container {
+    text-align: center;
+}
+
+.col{
+    background-color: #4b60c9;
+    width: 25%;
+    height: 45%;
+    border-radius: 15px;
+    margin-bottom: 2%;
+    padding: 3%;
+}
+
+.btn{
+
+    padding: 5% 2%;
+    width: 90%;
+    transition: transform 0.2s;
+    letter-spacing: 5px;
+}
+
+.btn:hover{
+
+    transform: scale(1.1);
+
+}
+
+.btn:active{
+    transform: scale(0.9);
+}
+
+
+.modal{
+    color: black;
+}
+
+.modal img{
+    width: 100%;
+    height: 60%;
+
+    border-radius: 15px;
+}
+
+.modal a{
+    text-decoration: none;
+    color: white;
+    border-radius: 8px;
+    transition: transform 0.2s;
+}
+
+
+.row{
+    gap: 2%;
+
+}
+
+.col a{  
+    padding: 5% 5%;
+    text-decoration: none;
+    width: 100%;
+    height: 40%;
+    border-radius: 15px;
+    background-color: #fff;
+    transition: .2s;
+    margin: 7%;
+}
+
+.col a:hover{
+    background-color: #bbbbbb;
+}
+
+
+
+@media only screen and (max-width: 425px){
+
+
+    .row{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .col{
+        width: 90%;
+        height: 30%;
+    }
+
+}
