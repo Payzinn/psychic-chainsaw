@@ -33,6 +33,10 @@ body{
     background-color: #1B1B20;
 }
 
+.mobile{
+    display: none;
+}
+
 .logo{
     color: white;
     cursor: pointer;
@@ -128,6 +132,54 @@ body{
     height: 100%;
   }
   
+  .btn-primary{
+    background: #1B1B20;
+    border-radius: 20px;
+    color: #fff;
+    border-style: none;
+    transition: .2s;
+  }
+  .btn-primary:hover{
+    background: #494956;
+  }
+
+
+.odd{
+    display: none;
+}
+
+.view a{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+    background: #00BE88;
+    padding: 1%;
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 5%;
+    text-decoration: none;
+    color: white;
+    transition: .2s;
+    cursor: pointer;
+}
+
+
+.view a:hover{
+    background: #008862;
+}
+
+.unv{
+    text-align: center;
+    display: block;
+}
+
+.inv{
+    display: none;
+    text-align: center;
+    transition: .2s;
+}
+
 
 
 .row{
