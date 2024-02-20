@@ -165,6 +165,7 @@ body{
 }
 
 
+
 .view a:hover{
     background: #008862;
 }
@@ -228,7 +229,33 @@ body{
     justify-content: center;
 }
 
-@media (max-width: 576px) {
+.txt{
+    font-size: 250%;
+}
+
+.mob{
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .view a{
+        width: 100%;
+        margin-left: 0;
+        
+    }
+
+
+
+    
+
+    .txt{
+        font-size: 180%;
+    }
+
+    .small{
+        font-size: 80%;
+    }
+
 
     body{
         overflow-x: hidden;
@@ -273,3 +300,68 @@ body{
     }
 }
 
+@media (max-width: 425px) {
+    .mob{
+        display: flex;
+        justify-content: center;
+        margin-right: 25%;
+    }
+
+    .pc{
+        display: none;
+    }
+
+    .navbar-nav{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+}
+
+
+
+@media (max-width: 375px) {
+
+    .txt{
+        font-size: 160%;
+    }
+
+    .mob{
+        margin-right: 20%;
+    }
+
+}
+
+@media (max-width: 320px) {
+    .txt{
+        font-size: 120%;
+    }
+    .small{
+        font-size: 70%;
+    }
+
+    .grey-text{
+        font-size: 90%;
+    }
+
+    .tiny{
+        font-size: 170%;
+        text-align: center;
+    }
+
+    .mob{
+        margin-right: 6%;
+    }
+
+    .navbar-nav{
+        display: flex;
+        justify-content: start;
+        
+    }
+
+    .nav-item{
+        margin-right: 0;
+    }
+
+}
